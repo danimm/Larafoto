@@ -1,0 +1,43 @@
+.container-avatar {
+    /* overflow: hidden; */
+    /* border-radius: 900px; */
+    margin-top: 10px;
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 40px;
+    border: 1px solid #bdbdbd;
+}
+
+.avatar-comment {
+    width: 30px;
+}
+
+.card-img-top {
+    height: 500px;
+    object-fit: contain;
+}
+
+.likes {
+    width: 25x;
+    height: 20px;
+    padding-right: 5px;
+}
+
+.text-likes {
+    font-size: 11px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(auto-fill, 250px);
+    grid-gap: 10px;
+}
+
+.img-grid {
+    object-fit: cover;
+    width: 100%;
+    height: 250px;
+}
